@@ -1,0 +1,25 @@
+<section class="container">
+  <div class="left-half">
+    <article class="oswald">
+      <h1 class="oswald">Cameron Bergoon</h1>
+      <p class="lato">Software Engineer</p>
+      <br>
+      <a target="_blank"href="https://github.com/cbergoon/" class="fa fa-github"></a>&nbsp;&nbsp;&nbsp;
+      <a target="_blank" href="https://jsfiddle.net/user/cbergoon/fiddles/" class="fa fa-jsfiddle"></a>&nbsp;&nbsp;&nbsp;
+      <a target="_blank" href="https://plus.google.com/100435688422397709709" class="fa fa-google-plus"></a>&nbsp;&nbsp;&nbsp;
+      <a target="_blank" href="https://www.facebook.com/cameron.bergoon" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;
+      <a target="_blank" href="https://www.linkedin.com/in/cbergoon" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;
+      <a target="_blank" href="" class="fa fa-slack"></a>&nbsp;&nbsp;&nbsp;
+    </article>
+  </div>
+	<div class="right-half">
+    <article>
+      <a [routerLink]="['Dashboard']" class="oswald large text-gray">Work</a>&nbsp;&nbsp;&nbsp;
+      <a [routerLink]="['Dashboard']" class="oswald large text-gray">Education</a>&nbsp;&nbsp;&nbsp;
+      <a [routerLink]="['Dashboard']" class="oswald large text-gray">Projects</a>&nbsp;&nbsp;&nbsp;
+      <a [routerLink]="['Dashboard']" class="oswald large text-gray">Readings</a>&nbsp;&nbsp;&nbsp;
+      <a [routerLink]="['Dashboard']" class="oswald large text-gray">Snippets</a>&nbsp;&nbsp;&nbsp;
+    </article>
+		<router-outlet></router-outlet>
+	</div>
+</section>

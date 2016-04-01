@@ -1,58 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-		<link href="css/style.css" rel="stylesheet">
-		<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-		<!-- <script src="js/bootstrap.min.js"></script> -->
-	</head>
-	<body>
-		<section class="container">
-		  <div class="left-half">
-		    <article class="oswald">
-		      <h1 class="oswald">Cameron Bergoon</h1>
-		      <p class="lato">Software Engineer</p>
-		      <br>
-		      <a target="_blank"href="https://github.com/cbergoon/" class="fa fa-github"></a>&nbsp;&nbsp;&nbsp;
-		      <a target="_blank" href="https://jsfiddle.net/user/cbergoon/fiddles/" class="fa fa-jsfiddle"></a>&nbsp;&nbsp;&nbsp;
-		      <a target="_blank" href="https://plus.google.com/100435688422397709709" class="fa fa-google-plus"></a>&nbsp;&nbsp;&nbsp;
-		      <a target="_blank" href="https://www.facebook.com/cameron.bergoon" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;
-		      <a target="_blank" href="https://www.linkedin.com/in/cbergoon" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;
-		      <a target="_blank" href="" class="fa fa-slack"></a>&nbsp;&nbsp;&nbsp;
-		    </article>
-		  </div>
-		  	<div class="right-half">
-		  		<article>
-		  			<a href="" class="oswald large text-gray">Work</a>&nbsp;&nbsp;&nbsp;
-		  			<a href="" class="oswald large text-gray">Education</a>&nbsp;&nbsp;&nbsp;
-		  			<a href="" class="oswald large text-gray">Projects</a>&nbsp;&nbsp;&nbsp;
-		  			<a href="" class="oswald large text-gray">Readings</a>&nbsp;&nbsp;&nbsp;
-		  			<a href="" class="oswald large text-gray">Snippets</a>&nbsp;&nbsp;&nbsp;
-	      		</article>
-		  	</div>
-		</section>
-	</body>
-</html>
+  <head>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <title>cbergoon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- <h3 style="margin-bottom: 5px;" class="oswald text-gray">Current</h3>
-<h6 style="margin-top: 0; margin-bottom: 5px;" class="lato text-gray">Software Engineer at ODW LTS Inc.</h6>
-<p style="margin-bottom: 5px;" class="lato text-gray">Leading development of an enterprise portal application which aims to provide a single user freindly interface to the entire supply chain. The portal is integrated to transportation and warehouse management systems providing ability to execute in realtime. Additionally, the portal provides an analytics platform interfacing a our data warehouse delivering data to end users in a fast and meaningfull manner. </p>
-<p style="margin-bottom: 10px;" class="lato text-gray">Developed a custom XML integrations platform/service for customized B2B integrations. Platform provides a DSL for validating, mapping and, send receive applications.</p>	
-<a href="" class="text-gray">Details</a>
-<h3 style="margin-bottom: 5px;" class="oswald text-gray">Education</h3>
-<h6 style="margin-top: 0; margin-bottom: 5px;" class="lato text-gray">Ohio University Russ College of Engineering</h6>
-<p style="margin-bottom: 5px;" class="lato text-gray">Bachelors of Computer Science</p>
-<h3 style="margin-bottom: 5px;" class="oswald text-gray">Projects</h3>
-<h6 style="margin-top: 0; margin-bottom: 5px;" class="lato text-gray">Distributed Graph DB</h6>
-<p style="margin-bottom: 5px;" class="lato text-gray">An implementation of a light weight purpose driven distributed graph database intended for use in applications which require highly reliable graph analysis. (Work in Progress)</p>
-<p style="margin-bottom: 5px;" class="lato text-gray">Check out the project on <a href="" class="text-gray">Github</a> or head over to the <a href="" class="text-gray">documentation</a>.</p>
-<br>
-<h6 style="margin-top: 0; margin-bottom: 5px;" class="lato text-gray">Business Rules Engine</h6>
-<p style="margin-bottom: 10px;" class="lato text-gray">Rules engine with a highly flexible data model and an extremely powerful criteria and search mechanism where the rules are Groovy code.</p>
-<p style="margin-bottom: 5px;" class="lato text-gray">Check out the project on <a href="" class="text-gray">Github</a> or head over to the <a href="" class="text-gray">documentation</a>.</p>
-<br>
-<a href="" class="text-gray">More Projects</a>
-<br> -->
-<!-- <a href="" class="oswald large text-gray">Work</a>&nbsp;&nbsp;&nbsp;<a href="" class="oswald large text-gray">Education</a>&nbsp;&nbsp;&nbsp;<a href="" class="oswald large text-gray">Projects</a>&nbsp;&nbsp;&nbsp;<a href="" class="oswald large text-gray">Readings</a>&nbsp;&nbsp;&nbsp;<a href="" class="oswald large text-gray">Snippets</a> -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- IE required polyfills, in this exact order -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.20/system-polyfills.js"></script>
+    <script src="https://npmcdn.com/angular2@2.0.0-beta.12/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="https://code.angularjs.org/2.0.0-beta.12/angular2-polyfills.js"></script>
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://npmcdn.com/typescript@1.8.9/lib/typescript.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.12/Rx.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.12/angular2.dev.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.12/router.dev.js"></script>
+    <script>
+      System.config({
+        transpiler: 'typescript', 
+        typescriptOptions: { emitDecoratorMetadata: true }, 
+        packages: {'app': {defaultExtension: 'ts'}} 
+      });
+      System.import('app/app.component')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+
+  <body>
+    <section class="container">
+      <my-app>Loading...</my-app>
+    </section>
+  </body>
+</html>
