@@ -2,36 +2,45 @@ import { bootstrap } from 'angular2/platform/browser';
 import { Component, provide } from 'angular2/core';
 import { ROUTER_DIRECTIVES, RouteConfig, Location,ROUTER_PROVIDERS, LocationStrategy, HashLocationStrategy, Route, AsyncRoute, Router, AuxRoute } from 'angular2/router';
 
-import { HeroService } from './hero.service';
-import { DashboardComponent } from './dashboard.component';
-import { HeroesComponent } from './heroes.component';
-import { HeroDetailComponent } from './hero-detail.component';
+import { WorkComponent } from './work.component';
+import { EducationComponent } from './education.component';
+import { ProjectsComponent } from './projects.component';
+import { ReadingsComponent } from './readings.component';
+import { SnippetsComponent } from './snippets.component';
 
 @Component({
   selector: 'my-app',
   templateUrl: 'app/app.component.html',
   styleUrls: ['app/app.component.css'],
   directives: [ROUTER_DIRECTIVES],
-  providers: [
-    HeroService
-  ]
+  providers: []
 })
 @RouteConfig([
   {
-    path: '/dashboard',
-    name: 'Dashboard',
-    component: DashboardComponent,
+    path: '/work',
+    name: 'Work',
+    component: WorkComponent,
     useAsDefault: true
   },
   {
-    path: '/detail/:id',
-    name: 'HeroDetail',
-    component: HeroDetailComponent
+    path: '/education',
+    name: 'Education',
+    component: EducationComponent
   },
   {
-    path: '/heroes',
-    name: 'Heroes',
-    component: HeroesComponent
+    path: '/projects',
+    name: 'Projects',
+    component: ProjectsComponent
+  },
+  {
+    path: '/readings',
+    name: 'Readings',
+    component: ReadingsComponent
+  },
+  {
+    path: '/snippets',
+    name: 'Snippets',
+    component: SnippetsComponent
   }
 ])
 export class AppComponent {
