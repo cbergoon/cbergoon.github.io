@@ -1,6 +1,6 @@
 <section class="container">
   <div class="left-half">
-    <article class="oswald">
+    <article class="oswald left">
       <h1 class="oswald">Cameron Bergoon</h1>
       <p class="lato">Software Engineer</p>
       <br>
@@ -13,13 +13,16 @@
     </article>
   </div>
 	<div class="right-half">
-    <article>
+    <article class="nav">
       <a [routerLink]="['Dashboard']" class="oswald large text-gray">Work</a>&nbsp;&nbsp;&nbsp;
       <a [routerLink]="['Dashboard']" class="oswald large text-gray">Education</a>&nbsp;&nbsp;&nbsp;
       <a [routerLink]="['Dashboard']" class="oswald large text-gray">Projects</a>&nbsp;&nbsp;&nbsp;
       <a [routerLink]="['Dashboard']" class="oswald large text-gray">Readings</a>&nbsp;&nbsp;&nbsp;
       <a [routerLink]="['Dashboard']" class="oswald large text-gray">Snippets</a>&nbsp;&nbsp;&nbsp;
+      <hr>
     </article>
-		<router-outlet></router-outlet>
+    <article>
+		  <router-outlet></router-outlet>
+    </article>
 	</div>
 </section>
