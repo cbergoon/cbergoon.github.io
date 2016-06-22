@@ -1,3 +1,53 @@
+.slide-center-out {
+  text-decoration:none;
+  display: inline-block;
+  border-bottom: 2px solid #cccccc;
+  color:blue;
+}
+/* add a empty string after the elment with class .slide-center-out  */
+.slide-center-out:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  -moz-transition: width .5s ease, background-color .5s ease;
+  margin:auto; /* center the cotent so it will sliding from the midddle to the left and right */
+}
+ 
+/* Change the width and background on hover, aka sliding from the middle to the left and right */
+.slide-center-out:hover:after {
+  width: 100%;
+  background: #1873f0;
+}
+
+.slide-center-out:hover {
+  border: none;
+}
+
+.sliding-u-l-r {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 25px;
+}
+.sliding-u-l-r:hover {
+    border-bottom: 3px solid blue;
+    width: 200px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 200px;
+    border: solid 4px white;
+    margin-bottom: 35px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -49,11 +99,12 @@ article {
 
 article.nav {
   top: 0%;
-  text-align: center !important;
+  /*text-align: center !important;*/
+  margin-top: 25px;
 }
 
 article.left {
-  top: 40%;
+  top: 20%;
   text-align: center !important;
   padding-right: 0px;
   padding-left: 0px;
@@ -89,19 +140,6 @@ hr {
 
 .large {
   font-size: 2.5rem !important;
-  text-decoration: none;
-  border-bottom: #666666;
-    border-width: 0px 0px 1px 0px;
-    border-style: none none dotted none;
-}
-
-a.large:hover{
-  color: #aaaaaa;
-  font-size: 2.5rem !important;
-  text-decoration: none;
-  border-bottom: #aaaaaa;
-    border-width: 0px 0px 1px 0px;
-    border-style: none none dotted none;
 }
 
 .right-half {

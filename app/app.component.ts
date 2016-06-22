@@ -7,6 +7,7 @@ import { EducationComponent } from './education.component';
 import { ProjectsComponent } from './projects.component';
 import { ReadingsComponent } from './readings.component';
 import { SnippetsComponent } from './snippets.component';
+import { ContactComponent } from './contact.component';
 
 @Component({
   selector: 'my-app',
@@ -38,13 +39,17 @@ import { SnippetsComponent } from './snippets.component';
     component: ReadingsComponent
   },
   {
+    path: '/contact',
+    name: 'Contact',
+    component: ContactComponent
+  },
+  {
     path: '/snippets',
     name: 'Snippets',
     component: SnippetsComponent
   }
 ])
 export class AppComponent {
-  title = 'Tour of Heroes';
 }
 
 bootstrap(AppComponent, [
