@@ -1,3 +1,10 @@
+.btn {
+  color: #1873f0;
+  font-weight: 900;
+  box-shadow: none;
+  outline: none;
+}
+
 .center-div {
   position: absolute;
   margin: auto;
