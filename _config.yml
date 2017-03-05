@@ -36,7 +36,7 @@ disqus:
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 twitter: cbergoon
-google: cbergoon
+# google: cbergoon
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: cbergoon
@@ -46,17 +46,17 @@ github: cbergoon
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: cbergoon
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: cbergoon@gmail.com
 
 authors:
     cbergoon:
         name: Cameron Bergoon
-        bio: A Man who travels the world eating noodles
+        bio: A problem solver and engineer looking for a challenge.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: cbergoon
 #    jamesfoster:
 #        name: James Foster
 #        bio: A Man who develops software with coffee
