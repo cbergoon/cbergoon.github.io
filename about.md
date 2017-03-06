@@ -23,13 +23,16 @@ presented by the industry with software and math.</p>
 
 <h2>Projects</h2>
 <ul>
-	<li><a href="https://github.com/cbergoon/stitchdb">Fast Geographically Capable Key-Value Store</a></li>
-	<li><a href="https://github.com/cbergoon/glb">Simple Reverse Proxy Load Balancer with Registry</a></li>
+	<li><a href="https://github.com/cbergoon/stitchdb">cbergoon/stitchdb - Fast Geographically Capable Key-Value Store</a></li>
+	<li><a href="https://github.com/cbergoon/glb">cbergoon/glb - Simple Reverse Proxy Load Balancer with Registry</a></li>
+	<li><a href="https://github.com/cbergoon/integro">cbergoon/integro - Integro is a Consistent, Replicated and, Immutable Ledger System</a></li>
+	<li><a href="https://github.com/cbergoon/java-graph">cbergoon/java-graph - Generic Graph Implementation</a></li>
+	<li><a href="https://github.com/cbergoon/java-hyper-grap">cbergoon/java-hyper-graph - Generic Hyper-Graph Implementation</a></li>
 </ul>
 
 <h2>Contributions</h2>
 <ul>
-	<li><a href="https://github.com/mbergoon/clink">Tooling for Uptime and Network Monitoring</a></li>
-	<li><a href="https://github.com/mbergoon/clinkd">Distributed Wrapper Daemon for mbergoon/clink</a></li>
-	<li><a href="https://github.com/dhconnelly/rtreego">R-Tree Implementation in Golang</a></li>
+	<li><a href="https://github.com/mbergoon/clink">mbergoon/clink - Tooling for Uptime and Network Monitoring</a></li>
+	<li><a href="https://github.com/mbergoon/clinkd">mbergoon/clinkd - Distributed Wrapper Daemon for mbergoon/clink</a></li>
+	<li><a href="https://github.com/dhconnelly/rtreego">dhconnelly/rtreego - R-Tree Implementation in Golang</a></li>
 </ul>
