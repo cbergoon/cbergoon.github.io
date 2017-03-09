@@ -2,7 +2,7 @@
 title: "Go Load Balancer"
 layout: post
 date: 2017-03-08 16:00
-tag: proxy reverse-proxy load-balancer golang go 
+tag: proxy, reverse-proxy, load-balancer, golang, go 
 headerImage: true
 projects: true
 hidden: false # don't count this post in blog pagination
