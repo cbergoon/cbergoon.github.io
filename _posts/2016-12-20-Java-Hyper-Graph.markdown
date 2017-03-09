@@ -1,9 +1,10 @@
 ---
 title: "Java Hyper Graph"
 layout: post
-date: 2017-12-20 16:00
+date: 2017-12-21 16:00
 tag: 
 - graph
+- hyper-graph
 - data structures
 - java
 headerImage: true
