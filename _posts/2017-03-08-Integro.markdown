@@ -10,7 +10,7 @@ tag:
 - go 
 headerImage: true
 projects: true
-hidden: false # don't count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "Like the Blockchain, Integro is a consistent, replicated and, immutable ledger system."
 category: project
 author: cbergoon

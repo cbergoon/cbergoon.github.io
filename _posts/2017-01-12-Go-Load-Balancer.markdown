@@ -10,7 +10,7 @@ tag:
 - go 
 headerImage: true
 projects: true
-hidden: false # don't count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "A practical load balancer reverse proxy with registry and management endpoints."
 category: project
 author: cbergoon

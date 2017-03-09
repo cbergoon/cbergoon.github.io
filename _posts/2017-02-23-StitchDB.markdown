@@ -11,7 +11,7 @@ tag:
 - go 
 headerImage: true
 projects: true
-hidden: false # don't count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "A work in progress key value store with indexes, transactions and, geospatial support."
 category: project
 author: cbergoon

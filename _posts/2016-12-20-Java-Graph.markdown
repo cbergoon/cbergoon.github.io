@@ -8,7 +8,7 @@ tag:
 - java
 headerImage: true
 projects: true
-hidden: false # don't count this post in blog pagination
+hidden: true # don't count this post in blog pagination
 description: "Simple reusable graph implementation."
 category: project
 author: cbergoon
