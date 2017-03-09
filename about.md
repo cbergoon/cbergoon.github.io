@@ -23,11 +23,11 @@ presented by the industry with software and math.</p>
 
 <h2>Projects</h2>
 <ul>
-	<li><a href="https://github.com/cbergoon/stitchdb">cbergoon/stitchdb - Fast Geographically Capable Key-Value Store</a></li>
+	<li><a href="#">cbergoon/stitchdb - Fast Geographically Capable Key-Value Store</a></li>
 	<li><a href="https://github.com/cbergoon/glb">cbergoon/glb - Simple Reverse Proxy Load Balancer with Registry</a></li>
-	<li><a href="https://github.com/cbergoon/integro">cbergoon/integro - Consistent, Replicated and, Immutable Ledger System</a></li>
+	<li><a href="#">cbergoon/integro - Consistent, Replicated and, Immutable Ledger System</a></li>
 	<li><a href="https://github.com/cbergoon/java-graph">cbergoon/java-graph - Generic Graph Implementation</a></li>
-	<li><a href="https://github.com/cbergoon/java-hyper-grap">cbergoon/java-hyper-graph - Generic Hyper-Graph Implementation</a></li>
+	<li><a href="#">cbergoon/java-hyper-graph - Generic Hyper-Graph Implementation</a></li>
 </ul>
 
 <h2>Contributions</h2>
