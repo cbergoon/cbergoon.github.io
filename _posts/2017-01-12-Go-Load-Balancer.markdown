@@ -1,7 +1,7 @@
 ---
 title: "Go Load Balancer"
 layout: post
-date: 2017-03-08 16:00
+date: 2017-01-12 16:00
 tag: 
 - proxy
 - reverse-proxy

@@ -1,0 +1,22 @@
+---
+title: "Integro"
+layout: post
+date: 2017-03-08 16:00
+tag: 
+- blockchain
+- ledger
+- consistent-store
+- golang
+- go 
+headerImage: true
+projects: true
+hidden: false # don't count this post in blog pagination
+description: "Like the Blockchain, Integro is a consistent, replicated and, immutable ledger system."
+category: project
+author: cbergoon
+externalLink: false
+---
+
+Like the Blockchain, Integro is a consistent, replicated and, immutable ledger system.
+
+[Check it out](http://github.com/cbergoon/integro) here.

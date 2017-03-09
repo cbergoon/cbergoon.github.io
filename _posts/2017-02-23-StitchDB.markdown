@@ -89,4 +89,6 @@ go run <filename>.go
 ### Other Stitchd Projects
 * [Stitchd-beacon](https://github.com/cbergoon/Stitchd-beacon) - Builds a HTTP API and RPC networking layer over Stitchd allowing it to operate as a standalone service.
 * [Stitchd-raft](https://github.com/cbergoon/Stitchd-raft) - An distributed and consistent service that adds RAFT to Stitchd-beacon (work in progress name).
+
+[Check it out](http://github.com/cbergoon/stitchdb) here.
   
