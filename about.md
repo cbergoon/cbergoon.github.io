@@ -20,7 +20,8 @@ layout: page
 
 <h2>Projects</h2>
 <ul>
-	<li><a href="#">cbergoon/pipes - Build composable process pipelines with reusable process blocks.</a></li>
+	<li><a href="#">cbergoon/merkletree - A Golang Merkle Tree implementation</a></li>
+	<li><a href="#">cbergoon/pipes - Build composable process pipelines with reusable components</a></li>
 	<li><a href="#">cbergoon/pipes-dl - Definition language for pipelines in cbergoon/pipes</a></li>
 	<li><a href="#">cbergoon/stitchdb - Fast Geographically Capable Key-Value Store</a></li>
 	<li><a href="#">cbergoon/integro - Consistent, Replicated and, Immutable Ledger System</a></li>
